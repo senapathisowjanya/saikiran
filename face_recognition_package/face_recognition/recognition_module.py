@@ -6,6 +6,7 @@ import pandas as pd
 import pickle
 
 class FaceRecognition:
+    #Hi
     def __init__(self):
         self.encodeImg_list = []
         self.encodeNames_list = []
