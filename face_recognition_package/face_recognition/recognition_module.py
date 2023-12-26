@@ -12,7 +12,7 @@ class FaceRecognition:
         self.encodeNames_list = []
     def face_encode(self,train_images_folder):
         for image in train_images_folder:
-            #Loading the current image
+            #Loading the current
             currImage = fr.load_image_file(image)
             currImage_rgb = cv2.cvtColor(currImage, cv2.COLOR_RGB2BGR)
             try:
